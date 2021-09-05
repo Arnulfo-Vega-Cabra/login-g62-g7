@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    color: rgb(250, 245, 245);
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    background-color: #0877d3;
+}
+
+h2{
+    font-size: 34px;
+}
+
+.contenedor_general{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+.cuadrogrande{
+    width: 350px;
+    height: 390px;
+    font-size: 16px;
+    padding: 40px 40px;
+    background: #1f2129;
+    border-radius: 48px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+input{
+    width: 90%;
+    margin-bottom: 25px;
+    padding: 0px, 30px, 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    transition: .3 all;
+}
+input:focus {
+    color: rgb(207, 194, 194);
+  }
+.olvidastecontraseña{
+    color: #616575;
+    text-align: right;
+    font-size: 12px;
+    cursor: pointer;
+}
+.olvidastecontraseña:hover{
+    text-decoration: underline;
+    color: rgb(206, 192, 192);
+}
+
+.botondeacceder{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton{
+    width: 70%;
+    padding: 15px;
+    background-color: #0877d3;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+    transition: 0.3 all;
+    cursor: pointer;
+}
+
+.boton:hover{
+    opacity: 2;
+}
+
+.suscribirse span{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(143, 130, 130);
+}
+
+.suscribirse span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0877d3;
+}
